@@ -33,10 +33,10 @@ class ChangeNotifierProvider<T extends ChangeNotifier> extends StatefulWidget {
   final T data;
   final Widget child;
 
-  static T of<T>(BuildContext context){
-    final type =
-    return
-  }
+  // static T of<T>(BuildContext context){
+  //   final type =
+  //   return
+  // }
 
   @override
   _ChangeNotifierProviderState createState() => _ChangeNotifierProviderState();
